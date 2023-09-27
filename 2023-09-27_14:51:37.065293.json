@@ -1,0 +1,288 @@
+{
+  "header": {
+    "Project": "niah_1",
+    "owner": "695f3964-346b-11ee-8d07-42010a800fe0",
+    "company_id": "6b3f1f52-346a-11ee-8d07-42010a800fe0",
+    "team_id": "85c74f20-346a-11ee-8d07-42010a800fe0",
+    "docker": "no",
+    "tags": "niah1",
+    "scanner_type": "dependencies",
+    "projectId": "5be05572-5d45-11ee-809e-42010a800fe0",
+    "scanId": "5be05573-5d45-11ee-809e-42010a800fe0",
+    "connection name": "sbom",
+    "language": "php",
+    "ecosystem": "php",
+    "Tested With": "",
+    "Severity": {
+      "MODERATE": 1
+    },
+    "Total Scanned Dependancies": 0,
+    "Total Unique Vulnerabilities": 1,
+    "Total Vulnerable Dependencies": 1,
+    "Date": "27-09-2023_14:51:33"
+  },
+  "inventory": [
+    {
+      "name": "Reads from stdin without leaking info to the terminal and outputs back to stdout",
+      "version": "1, 0, 0, 0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Reads%20from%20stdin%20without%20leaking%20info%20to%20the%20terminal%20and%20outputs%20back%20to%20stdout@1,%200,%200,%200?package-id=dfc56077b0a7a058",
+      "cpe": "cpe:2.3:a:Reads_from_stdin_without_leaking_info_to_the_terminal_and_outputs_back_to_stdout:Reads_from_stdin_without_leaking_info_to_the_terminal_and_outputs_back_to_stdout:1\\,_0\\,_0\\,_0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Reads%20from%20stdin%20without%20leaking%20info%20to%20the%20terminal%20and%20outputs%20back%20to%20stdout@1,%200,%200,%200",
+      "license": ""
+    },
+    {
+      "name": "monolog/monolog",
+      "version": "1.27.1",
+      "type": "library",
+      "bom-ref": "pkg:composer/monolog/monolog@1.27.1?package-id=0b0d3aa389a1f300",
+      "cpe": "cpe:2.3:a:monolog\\/monolog:monolog\\/monolog:1.27.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/monolog/monolog@1.27.1",
+      "license": "MIT"
+    },
+    {
+      "name": "psr/container",
+      "version": "1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:composer/psr/container@1.1.1?package-id=a187ef58cd7cbd7b",
+      "cpe": "cpe:2.3:a:psr\\/container:psr\\/container:1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/psr/container@1.1.1",
+      "license": "MIT"
+    },
+    {
+      "name": "psr/log",
+      "version": "1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:composer/psr/log@1.0.0?package-id=4cbebb8ac22300d7",
+      "cpe": "cpe:2.3:a:psr\\/log:psr\\/log:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/psr/log@1.0.0",
+      "license": "MIT"
+    },
+    {
+      "name": "sepia/po-parser",
+      "version": "4.2.2",
+      "type": "library",
+      "bom-ref": "pkg:composer/sepia/po-parser@4.2.2?package-id=91144a43963684e0",
+      "cpe": "cpe:2.3:a:sepia\\/po-parser:sepia\\/po-parser:4.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/sepia/po-parser@4.2.2",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/config",
+      "version": "v4.4.44",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/config@v4.4.44?package-id=794f6db0a5f5de69",
+      "cpe": "cpe:2.3:a:symfony\\/config:symfony\\/config:v4.4.44:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/config@v4.4.44",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/console",
+      "version": "v4.4.49",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/console@v4.4.49?package-id=b3c5c23be9e705fb",
+      "cpe": "cpe:2.3:a:symfony\\/console:symfony\\/console:v4.4.49:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/console@v4.4.49",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/debug",
+      "version": "v4.4.44",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/debug@v4.4.44?package-id=f3d23ff01242881f",
+      "cpe": "cpe:2.3:a:symfony\\/debug:symfony\\/debug:v4.4.44:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/debug@v4.4.44",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/dependency-injection",
+      "version": "v4.4.49",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/dependency-injection@v4.4.49?package-id=591e23d988d7de04",
+      "cpe": "cpe:2.3:a:symfony\\/dependency-injection:symfony\\/dependency-injection:v4.4.49:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/dependency-injection@v4.4.49",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/deprecation-contracts",
+      "version": "v2.5.2",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/deprecation-contracts@v2.5.2?package-id=90d29bf35b9652be",
+      "cpe": "cpe:2.3:a:symfony\\/deprecation-contracts:symfony\\/deprecation-contracts:v2.5.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/deprecation-contracts@v2.5.2",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/error-handler",
+      "version": "v4.4.44",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/error-handler@v4.4.44?package-id=63bc81df4f92b510",
+      "cpe": "cpe:2.3:a:symfony\\/error-handler:symfony\\/error-handler:v4.4.44:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/error-handler@v4.4.44",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/event-dispatcher",
+      "version": "v4.4.44",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/event-dispatcher@v4.4.44?package-id=ae6f8c85066ee1f9",
+      "cpe": "cpe:2.3:a:symfony\\/event-dispatcher:symfony\\/event-dispatcher:v4.4.44:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/event-dispatcher@v4.4.44",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/event-dispatcher-contracts",
+      "version": "v1.1.13",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/event-dispatcher-contracts@v1.1.13?package-id=ab58d349c1eed228",
+      "cpe": "cpe:2.3:a:symfony\\/event-dispatcher-contracts:symfony\\/event-dispatcher-contracts:v1.1.13:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/event-dispatcher-contracts@v1.1.13",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/filesystem",
+      "version": "v4.4.42",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/filesystem@v4.4.42?package-id=56a36d4e9e77a3f0",
+      "cpe": "cpe:2.3:a:symfony\\/filesystem:symfony\\/filesystem:v4.4.42:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/filesystem@v4.4.42",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/finder",
+      "version": "v4.4.44",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/finder@v4.4.44?package-id=8f923e5ff6ade71d",
+      "cpe": "cpe:2.3:a:symfony\\/finder:symfony\\/finder:v4.4.44:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/finder@v4.4.44",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/http-client-contracts",
+      "version": "v2.5.2",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/http-client-contracts@v2.5.2?package-id=32a42a46ab342508",
+      "cpe": "cpe:2.3:a:symfony\\/http-client-contracts:symfony\\/http-client-contracts:v2.5.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/http-client-contracts@v2.5.2",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/http-foundation",
+      "version": "v5.4.28",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/http-foundation@v5.4.28?package-id=bf860ef4965a16df",
+      "cpe": "cpe:2.3:a:symfony\\/http-foundation:symfony\\/http-foundation:v5.4.28:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/http-foundation@v5.4.28",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/http-kernel",
+      "version": "v4.4.50",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/http-kernel@v4.4.50?package-id=727721e883b57a17",
+      "cpe": "cpe:2.3:a:symfony\\/http-kernel:symfony\\/http-kernel:v4.4.50:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/http-kernel@v4.4.50",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/monolog-bridge",
+      "version": "v4.4.43",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/monolog-bridge@v4.4.43?package-id=9703cbf717759e79",
+      "cpe": "cpe:2.3:a:symfony\\/monolog-bridge:symfony\\/monolog-bridge:v4.4.43:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/monolog-bridge@v4.4.43",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/polyfill-ctype",
+      "version": "v1.28.0",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/polyfill-ctype@v1.28.0?package-id=ddceaf84f3e608ea",
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-ctype:symfony\\/polyfill-ctype:v1.28.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-ctype@v1.28.0",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/polyfill-mbstring",
+      "version": "v1.28.0",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/polyfill-mbstring@v1.28.0?package-id=131c9bec29fd6fdb",
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-mbstring:symfony\\/polyfill-mbstring:v1.28.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-mbstring@v1.28.0",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/polyfill-php73",
+      "version": "v1.28.0",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/polyfill-php73@v1.28.0?package-id=1a0ae09d582412b5",
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-php73:symfony\\/polyfill-php73:v1.28.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-php73@v1.28.0",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/polyfill-php80",
+      "version": "v1.28.0",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/polyfill-php80@v1.28.0?package-id=80d93a0392471763",
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-php80:symfony\\/polyfill-php80:v1.28.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-php80@v1.28.0",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/polyfill-php81",
+      "version": "v1.28.0",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/polyfill-php81@v1.28.0?package-id=0ccb8abbab0a4a9b",
+      "cpe": "cpe:2.3:a:symfony\\/polyfill-php81:symfony\\/polyfill-php81:v1.28.0:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/polyfill-php81@v1.28.0",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/process",
+      "version": "v4.4.44",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/process@v4.4.44?package-id=cc005372cb68d9ec",
+      "cpe": "cpe:2.3:a:symfony\\/process:symfony\\/process:v4.4.44:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/process@v4.4.44",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/service-contracts",
+      "version": "v2.5.2",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/service-contracts@v2.5.2?package-id=4c84c0efb90cb38e",
+      "cpe": "cpe:2.3:a:symfony\\/service-contracts:symfony\\/service-contracts:v2.5.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/service-contracts@v2.5.2",
+      "license": "MIT"
+    },
+    {
+      "name": "symfony/var-dumper",
+      "version": "v5.4.28",
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/var-dumper@v5.4.28?package-id=3361816c1b301846",
+      "cpe": "cpe:2.3:a:symfony\\/var-dumper:symfony\\/var-dumper:v5.4.28:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/symfony/var-dumper@v5.4.28",
+      "license": "MIT"
+    }
+  ],
+  "Issues": {
+    "data": [
+      {
+        "package": "symfony/http-kernel",
+        "installed_version": "v4.4.50",
+        "cves": "CVE-2022-24894",
+        "niah_id": "NIAH-php-symfony/http-kernel-GHSA-h7vf-5wrv-9fhv",
+        "severity": "MODERATE",
+        "published": "2023-02-01T18:48:09Z",
+        "cpe": "cpe:2.3:a:symfony\\/http-kernel:symfony\\/http-kernel:v4.4.50:*:*:*:*:*:*:*",
+        "bom-ref": "pkg:composer/symfony/http-kernel@v4.4.50?package-id=727721e883b57a17",
+        "purl": "pkg:composer/symfony/http-kernel@v4.4.50",
+        "license": "MIT",
+        "type": "library",
+        "cwe_text": "CWE-285",
+        "patch": "Upgrade version 4.4.50"
+      }
+    ]
+  }
+}
